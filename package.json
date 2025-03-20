@@ -1,0 +1,21 @@
+{
+  "name": "typescript-website",
+  "version": "1.0.0",
+  "description": "A basic TypeScript website",
+  "scripts": {
+    "start": "serve src -p 3000",
+    "build": "cp -r src/* dist/"
+  },
+  "dependencies": {
+    "@polkadot-api/descriptors": "file:.papi/descriptors",
+    "@polkadot-api/docgen": "^0.1.12",
+    "polkadot-api": "^1.9.5",
+    "serve": "^14.2.4"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.11.11",
+    "@types/node": "^20.10.5",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3"
+  }
+}
